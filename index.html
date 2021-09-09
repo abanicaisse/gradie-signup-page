@@ -20,12 +20,14 @@
             <h1>Login</h1>
             <form action="#">
                 <label for="email">Email</label> <br>
-                <input type="email" name="email" id="email" required> <br>
+                <input type="email" name="email" id="email" placeholder="john@example.com" required> <br>
                 <label for="password">Password</label> <br>
-                <input type="password" name="password" id="password" minlength="8" required> <br>
+                <input type="password" name="password" id="password" minlength="8" placeholder="At least 8 characters" required> <br>
 
-                <input type="checkbox" name="terms" id="terms" required>
-                <label for="terms"><p>By creating an account you agree to the <a href="#">Terms & conditions.</a></p></label>
+                <div>
+                    <input type="checkbox" name="terms" id="terms" required>
+                    <label for="terms"><p>By creating an account you agree to the <a href="#">Terms & conditions.</a></p></label>
+                </div>
 
                 <button type="submit">Create an Account</button>
             </form>
